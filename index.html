@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aposentadoria por contribuição</title>
+</head>
+<body>
+    <center>
+        <script>
+            var nome = prompt("Digite o seu nome")
+            document.write("Nome : " + nome)
+            document.write("<br>")
+            var sexo = prompt("Digite o seu sexo: Masculino(M), Feminino(F)")
+            var idade = parseInt(prompt("Digite sua idade"))
+            var contribuição = parseInt(prompt("Digite quanto tempo você tem de contribuição"))
+            if(idade >= 65||contribuição >= 30 ){
+                document.write("Você pode se aposentar")
+            }else{
+                document.write("Você não pode se aposentar")
+            }
+        </script>
+    </center>
+</body>
+</html>
